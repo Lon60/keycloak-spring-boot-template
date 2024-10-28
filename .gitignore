@@ -1,40 +1,43 @@
+# README & HELP
 HELP.md
+
+# Gradle files
 .gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+api/build/
+!api/gradle/wrapper/gradle-wrapper.jar
+!api/**/src/main/**/build/
+!api/**/src/test/**/build/
 
 ### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+api/.apt_generated
+api/.classpath
+api/.factorypath
+api/.project
+api/.settings
+api/.springBeans
+api/.sts4-cache
+api/bin/
+!api/**/src/main/**/bin/
+!api/**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+api/.idea
+api/*.iws
+api/*.iml
+api/*.ipr
+api/out/
+!api/**/src/main/**/out/
+!api/**/src/test/**/out/
 
 ### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+api/nbproject/private/
+api/nbbuild/
+api/dist/
+api/nbdist/
+api/.nb-gradle/
 
 ### VS Code ###
-.vscode/
+api/.vscode/
 
-### enviroment ###
-.env
+### Environment variables ###
+api/.env
